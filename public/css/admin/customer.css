@@ -1,0 +1,230 @@
+/* Main Content Container */
+.main-content {
+    margin-left: 280px;
+    min-height: 100vh;
+    background: #f8f9fc;
+    transition: all 0.3s ease;
+    margin-top: 50px;
+}
+
+/* Tennis Overview Container */
+.tennis-overview {
+    padding: 2rem;
+}
+
+thead{
+    background-color: #03346E;
+}
+
+/* Table Header */
+.table-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgba(110, 172, 218, 0.1);
+}
+
+.header-left h2 {
+    color: #021526;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.current-datetime {
+    color: #6EACDA;
+    font-size: 0.875rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.btn-primary {
+    background: linear-gradient(135deg, #03346E, #021526);
+    color: #E2E2B6;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(3, 52, 110, 0.2);
+}
+
+/* Table Container */
+.table-container {
+    overflow-x: auto;
+    background: #ffffff;
+    border-radius: 12px;
+    border: 1px solid rgba(110, 172, 218, 0.1);
+}
+
+/* Table Styles */
+.customers-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+.customers-table thead th {
+    background: rgba(2, 21, 38, 0.02);
+    color: white;
+    font-weight: 600;
+    text-align: left;
+    padding: 1.25rem 1rem;
+    border-bottom: 2px solid rgba(110, 172, 218, 0.1);
+    white-space: nowrap;
+}
+
+.customers-table tbody td {
+    padding: 1rem;
+    border-bottom: 1px solid rgba(110, 172, 218, 0.1);
+    color: #021526;
+    vertical-align: middle;
+}
+
+.customers-table tbody tr:hover {
+    background: rgba(110, 172, 218, 0.05);
+}
+
+/* Action Buttons */
+.action-buttons {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.btn-icon {
+    width: 36px;
+    height: 36px;
+    border-radius: 8px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-icon.edit {
+    background: rgba(110, 172, 218, 0.1);
+    color: #6EACDA;
+}
+
+.btn-icon.delete {
+    background: rgba(220, 53, 69, 0.1);
+    color: #dc3545;
+}
+
+.btn-icon:hover {
+    transform: translateY(-2px);
+}
+
+.btn-icon.edit:hover {
+    background: #6EACDA;
+    color: #ffffff;
+}
+
+.btn-icon.delete:hover {
+    background: #dc3545;
+    color: #ffffff;
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+    .customers-table {
+        font-size: 0.875rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .tennis-overview {
+        padding: 1rem;
+    }
+
+    .table-header {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .btn-primary {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .table-container {
+        overflow-x: auto;
+    }
+
+    .customers-table {
+        min-width: 800px;
+    }
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.customers-table tbody tr {
+    animation: fadeIn 0.3s ease-out forwards;
+}
+
+.customers-table tbody tr:nth-child(1) { animation-delay: 0.1s; }
+.customers-table tbody tr:nth-child(2) { animation-delay: 0.2s; }
+.customers-table tbody tr:nth-child(3) { animation-delay: 0.3s; }
+.customers-table tbody tr:nth-child(4) { animation-delay: 0.4s; }
+
+/* Custom Scrollbar */
+.table-container::-webkit-scrollbar {
+    height: 6px;
+}
+
+.table-container::-webkit-scrollbar-track {
+    background: rgba(110, 172, 218, 0.05);
+}
+
+.table-container::-webkit-scrollbar-thumb {
+    background: rgba(110, 172, 218, 0.2);
+    border-radius: 3px;
+}
+
+/* Email and Phone Number Styling */
+.customers-table td:nth-child(3), /* Email column */
+.customers-table td:nth-child(4) { /* Phone number column */
+    font-family: monospace;
+    font-size: 0.9em;
+    color: #03346E;
+}
+
+/* Address Column */
+.customers-table td:nth-child(5) { /* Address column */
+    max-width: 300px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Hover effect to show full address */
+.customers-table td:nth-child(5):hover {
+    white-space: normal;
+    overflow: visible;
+    background: #ffffff;
+    position: relative;
+    z-index: 1;
+    box-shadow: 0 2px 12px rgba(2, 21, 38, 0.08);
+    border-radius: 4px;
+}
