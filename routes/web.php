@@ -49,8 +49,3 @@ Route::get('/register', function () {
     return view('auth.register');
 });
 
-
-//test
-Route::post('/register', function () {
-    return view('auth.register');
-});
