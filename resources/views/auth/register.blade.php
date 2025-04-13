@@ -11,29 +11,29 @@
     <div class="container">
         <div class="register-box">
             <div class="register-header">
-                <h2>Create Account</h2>
-                <p>Please fill in your details to register</p>
+                <h2>REGISTER</h2>
+                <p>Isi detail dibawah ini untuk daftar</p>
             </div>
             <form class="register-form" id="registerForm" onsubmit="return validateForm()">
                 <div class="input-group">
                     <div class="input-field">
                         <i class="fas fa-user"></i>
-                        <input type="text" id="fullname" placeholder="Full Name" required>
+                        <input type="text" id="fullname" placeholder="Nama Lengkap" required>
                     </div>
                     
                     <div class="input-field">
                         <i class="fas fa-envelope"></i>
-                        <input type="email" id="email" placeholder="Email Address" required>
+                        <input type="email" id="email" placeholder="Email" required>
                     </div>
 
                     <div class="input-field">
                         <i class="fas fa-phone"></i>
-                        <input type="tel" id="phone" placeholder="Phone Number" required>
+                        <input type="tel" id="phone" placeholder="Nomor HP" required>
                     </div>
 
                     <div class="input-field">
                         <i class="fas fa-location-dot"></i>
-                        <textarea id="address" placeholder="Full Address" required></textarea>
+                        <textarea id="address" placeholder="Alamat" required></textarea>
                     </div>
 
                     <div class="input-field">
@@ -44,15 +44,15 @@
 
                     <div class="input-field">
                         <i class="fas fa-lock"></i>
-                        <input type="password" id="confirmPassword" placeholder="Confirm Password" required>
+                        <input type="password" id="confirmPassword" placeholder="Konfirmasi Password" required>
                         <i class="far fa-eye toggle-password" onclick="togglePassword('confirmPassword')"></i>
                     </div>
 
-                    <button type="submit" class="register-btn">Create Account</button>
+                    <button type="submit" class="register-btn">Buat Akun</button>
                 </div>
             </form>
             <div class="register-footer">
-                <p>Already have an account? <a href="{{ url('/login') }}">Sign In</a></p>
+                <p>Sudah memiliki akun? <a href="{{ url('/login') }}">Masuk</a></p>
             </div>
         </div>
     </div>
