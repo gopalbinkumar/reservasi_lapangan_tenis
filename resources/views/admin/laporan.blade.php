@@ -19,11 +19,7 @@
                     <!-- Page Header -->
                     <div class="table-header">
                         <div class="header-left">
-                            <h2>Laporan Gabungan</h2>
-                            <p class="current-datetime">
-                                <i class="bi bi-clock"></i>
-                                2025-04-12 11:21:36 (UTC)
-                            </p>
+                            <h2>Laporan</h2>
                         </div>
                         <div class="header-actions">
                             <div class="date-range-picker">
@@ -53,7 +49,6 @@
                                     <th>Total Reservasi</th>
                                     <th>Status Reservasi</th>
                                     <th>Jam Terpakai</th>
-                                    <th>Utilisasi</th>
                                     <th>Metode Pembayaran</th>
                                     <th>Pendapatan</th>
                                 </tr>
@@ -72,12 +67,6 @@
                                         </div>
                                     </td>
                                     <td>145</td>
-                                    <td>
-                                        <div class="usage-indicator">
-                                            <div class="progress" style="width: 85%"></div>
-                                            <span>85%</span>
-                                        </div>
-                                    </td>
                                     <td class="payment-cell">
                                         <div class="payment-methods">
                                             <span><i class="bi bi-credit-card"></i> Bank: 70%</span>
@@ -101,12 +90,6 @@
                                         </div>
                                     </td>
                                     <td>132</td>
-                                    <td>
-                                        <div class="usage-indicator">
-                                            <div class="progress" style="width: 78%"></div>
-                                            <span>78%</span>
-                                        </div>
-                                    </td>
                                     <td class="payment-cell">
                                         <div class="payment-methods">
                                             <span><i class="bi bi-credit-card"></i> Bank: 65%</span>
@@ -130,12 +113,6 @@
                                         </div>
                                     </td>
                                     <td>120</td>
-                                    <td>
-                                        <div class="usage-indicator">
-                                            <div class="progress" style="width: 65%"></div>
-                                            <span>65%</span>
-                                        </div>
-                                    </td>
                                     <td class="payment-cell">
                                         <div class="payment-methods">
                                             <span><i class="bi bi-credit-card"></i> Bank: 60%</span>
@@ -159,12 +136,6 @@
                                         </div>
                                     </td>
                                     <td>90</td>
-                                    <td>
-                                        <div class="usage-indicator">
-                                            <div class="progress" style="width: 55%"></div>
-                                            <span>55%</span>
-                                        </div>
-                                    </td>
                                     <td class="payment-cell">
                                         <div class="payment-methods">
                                             <span><i class="bi bi-credit-card"></i> Bank: 62%</span>
@@ -187,7 +158,6 @@
                                         </div>
                                     </td>
                                     <td>487</td>
-                                    <td>70.75%</td>
                                     <td class="payment-cell">
                                         <div class="payment-methods">
                                             <span><i class="bi bi-credit-card"></i> 65%</span>

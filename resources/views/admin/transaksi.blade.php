@@ -19,10 +19,6 @@
                 <div class="table-header">
                     <div class="header-left">
                         <h2>Daftar Pembayaran</h2>
-                        <p class="current-datetime">
-                            <i class="bi bi-clock"></i>
-                            2025-04-12 10:39:31 (UTC)
-                        </p>
                     </div>
                 </div>
 

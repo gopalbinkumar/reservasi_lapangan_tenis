@@ -58,19 +58,6 @@
                         </div>
                     </div>
                 </div>
-
-                <!-- <div class="stat-card maintenance">
-                    <div class="stat-icon">
-                        <i class="bi bi-tools"></i>
-                    </div>
-                    <div class="stat-info">
-                        <h3>Maintenance</h3>
-                        <div class="stat-value">1</div>
-                        <div class="stat-detail">
-                            <span class="scheduled">Court 6 under maintenance</span>
-                        </div>
-                    </div>
-                </div> -->
             </div>
 
             <!-- Real-time Court Status -->
@@ -126,10 +113,6 @@
                             <span class="status">Available</span>
                         </div>
                         <div class="court-info">
-                            <div class="availability">
-                                <p>Available Now</p>
-                                <button class="btn btn-sm btn-primary">Quick Book</button>
-                            </div>
                             <div class="court-features">
                                 <span class="feature"><i class="bi bi-house"></i> Indoor</span>
                                 <span class="feature"><i class="bi bi-stars"></i> Premium</span>
@@ -137,69 +120,6 @@
                         </div>
                         <div class="next-booking">
                             <p>Next: 11:00 - 12:30</p>
-                        </div>
-                    </div>
-
-                    <!-- Court 4 -->
-                    <div class="court-card active">
-                        <div class="court-header">
-                            <h3>Court 4</h3>
-                            <span class="status">In Use</span>
-                        </div>
-                        <div class="court-info">
-                            <div class="current-session">
-                                <p class="time">07:00 - 08:30</p>
-                                <p class="user">Booked by: David Chen</p>
-                            </div>
-                            <div class="court-features">
-                                <span class="feature"><i class="bi bi-house"></i> Indoor</span>
-                                <span class="feature"><i class="bi bi-star"></i> Standard</span>
-                            </div>
-                        </div>
-                        <div class="next-booking">
-                            <p>Next: 09:00 - 10:30</p>
-                        </div>
-                    </div>
-
-                    <!-- Court 5 -->
-                    <div class="court-card available">
-                        <div class="court-header">
-                            <h3>Court 5</h3>
-                            <span class="status">Available</span>
-                        </div>
-                        <div class="court-info">
-                            <div class="availability">
-                                <p>Available Now</p>
-                                <button class="btn btn-sm btn-primary">Quick Book</button>
-                            </div>
-                            <div class="court-features">
-                                <span class="feature"><i class="bi bi-brightness-high"></i> Outdoor</span>
-                                <span class="feature"><i class="bi bi-star"></i> Standard</span>
-                            </div>
-                        </div>
-                        <div class="next-booking">
-                            <p>No upcoming bookings</p>
-                        </div>
-                    </div>
-
-                    <!-- Court 6 -->
-                    <div class="court-card maintenance">
-                        <div class="court-header">
-                            <h3>Court 6</h3>
-                            <span class="status">Maintenance</span>
-                        </div>
-                        <div class="court-info">
-                            <div class="maintenance-info">
-                                <p class="time">Until: 14:00</p>
-                                <p class="detail">Surface Renovation</p>
-                            </div>
-                            <div class="court-features">
-                                <span class="feature"><i class="bi bi-brightness-high"></i> Outdoor</span>
-                                <span class="feature"><i class="bi bi-stars"></i> Premium</span>
-                            </div>
-                        </div>
-                        <div class="next-booking">
-                            <p>Available from: 14:30</p>
                         </div>
                     </div>
                 </div>

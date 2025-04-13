@@ -16,13 +16,9 @@
             @include('components.header')
             <div class="tennis-overview">
                 <!-- Page Header -->
-                    <div class="header-left">
-                        <h2>Daftar Pelanggan</h2>
-                        <p class="current-datetime">
-                            <i class="bi bi-clock"></i>
-                            2025-04-12 10:05:20 (UTC)
-                        </p>
-                    </div>
+                <div class="header-left">
+                    <h2>Daftar Pelanggan</h2>
+                </div>
 
                 <!-- Customers Table -->
                 <div class="table-container">

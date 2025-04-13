@@ -84,7 +84,7 @@
         </div>
 
         <!-- Footer Bottom -->
-        <div class="footer-bottom">
+        <!-- <div class="footer-bottom">
             <div class="footer-info">
                 <p class="copyright">
                     &copy; ${new Date().getFullYear()} TennisCourt. All rights reserved.
@@ -99,6 +99,6 @@
                 <a href="/terms">Terms of Service</a>
                 <a href="/sitemap">Sitemap</a>
             </nav>
-        </div>
+        </div> -->
     </div>
 </footer>

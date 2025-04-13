@@ -119,21 +119,6 @@
     <!-- Courts Section -->
     <section class="courts" id="courts">
         <div class="container">
-            <!-- User Info Bar -->
-            <div class="user-info-bar" data-aos="fade-down" data-aos-duration="800">
-                <div class="user-details">
-                    <i class="fa-duotone fa-user-circle fa-bounce"></i>
-                    <span class="username">gopalbinkumar</span>
-                    <span class="online-status" title="Online">
-                        <i class="fa-solid fa-circle-dot fa-beat-fade"></i>
-                    </span>
-                </div>
-                <div class="datetime">
-                    <i class="fa-regular fa-clock fa-spin-pulse"></i>
-                    <span id="currentTime">2025-04-12 13:57:38</span>
-                    <span class="timezone">(UTC)</span>
-                </div>
-            </div>
 
             <div class="section-header">
                 <h2 data-aos="fade-down" data-aos-duration="1000">Lapangan Kami</h2>
@@ -146,9 +131,6 @@
                     <div class="court-image" data-aos="zoom-in" data-aos-delay="150">
                         <img src="https://images.unsplash.com/photo-1622163642998-1ea32b0bbc67?auto=format&q=80&w=800"
                             alt="Premium Indoor Court" loading="lazy">
-                        <span class="court-tag">
-                            <i class="fa-solid fa-crown fa-bounce"></i> Premium
-                        </span>
                     </div>
                     <div class="court-content">
                         <h3 data-aos="fade-up" data-aos-delay="200">Court A1</h3>
@@ -164,7 +146,7 @@
                         </div>
                         <button class="book-btn" data-aos="fade-up" data-aos-delay="350">
                             <i class="fa-solid fa-calendar-check fa-shake"></i>
-                            Book Now
+                            Reservasi Sekarang
                         </button>
                     </div>
                 </div>
@@ -174,9 +156,6 @@
                     <div class="court-image" data-aos="zoom-in" data-aos-delay="250">
                         <img src="https://images.unsplash.com/photo-1554068865-24cecd4e34b8?auto=format&q=80&w=800"
                             alt="Standard Indoor Court" loading="lazy">
-                        <span class="court-tag">
-                            <i class="fa-solid fa-star"></i> Standard
-                        </span>
                     </div>
                     <div class="court-content">
                         <h3 data-aos="fade-up" data-aos-delay="300">Court A2</h3>
@@ -191,7 +170,7 @@
                         </div>
                         <button class="book-btn" data-aos="fade-up" data-aos-delay="450">
                             <i class="fa-solid fa-calendar-plus fa-bounce"></i>
-                            Book Now
+                            Reservasi Sekarang
                         </button>
                     </div>
                 </div>
@@ -201,9 +180,6 @@
                     <div class="court-image" data-aos="zoom-in" data-aos-delay="350">
                         <img src="https://images.unsplash.com/photo-1595435934249-5df7ed86e1c0?auto=format&q=80&w=800"
                             alt="Premium Outdoor Court" loading="lazy">
-                        <span class="court-tag">
-                            <i class="fa-solid fa-crown"></i> Premium Outdoor
-                        </span>
                     </div>
                     <div class="court-content">
                         <h3 data-aos="fade-up" data-aos-delay="400">Court B1</h3>
@@ -219,7 +195,7 @@
                         </div>
                         <button class="book-btn" data-aos="fade-up" data-aos-delay="550">
                             <i class="fa-solid fa-calendar-plus fa-bounce"></i>
-                            Book Now
+                            Reservasi Sekarang
                         </button>
                     </div>
                 </div>
@@ -229,9 +205,6 @@
                     <div class="court-image" data-aos="zoom-in" data-aos-delay="450">
                         <img src="https://images.unsplash.com/photo-1614743758466-e569f4791116?auto=format&q=80&w=800"
                             alt="Standard Outdoor Court" loading="lazy">
-                        <span class="court-tag">
-                            <i class="fa-solid fa-star"></i> Standard Outdoor
-                        </span>
                     </div>
                     <div class="court-content">
                         <h3 data-aos="fade-up" data-aos-delay="500">Court B2</h3>
@@ -246,7 +219,7 @@
                         </div>
                         <button class="book-btn" data-aos="fade-up" data-aos-delay="650">
                             <i class="fa-solid fa-calendar-plus fa-bounce"></i>
-                            Book Now
+                            Reservasi Sekarang
                         </button>
                     </div>
                 </div>

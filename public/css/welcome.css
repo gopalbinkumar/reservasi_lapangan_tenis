@@ -63,14 +63,14 @@ body {
     opacity: 0.3;
 }
 
-@keyframes shiningEffect {
+/* @keyframes shiningEffect {
     0% {
         transform: translateX(-100%) rotate(45deg);
     }
     100% {
         transform: translateX(100%) rotate(45deg);
     }
-}
+} */
 
 @keyframes pulseEffect {
     0%, 100% {

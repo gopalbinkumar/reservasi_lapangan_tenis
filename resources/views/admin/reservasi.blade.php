@@ -19,10 +19,6 @@
                 <div class="table-header">
                     <div class="header-left">
                         <h2>Daftar Reservasi</h2>
-                        <p class="current-datetime">
-                            <i class="bi bi-clock"></i>
-                            {{ date('Y-m-d H:i:s') }} (UTC)
-                        </p>
                     </div>
                 </div>
 
