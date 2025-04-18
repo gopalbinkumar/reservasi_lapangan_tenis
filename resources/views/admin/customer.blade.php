@@ -33,34 +33,7 @@
                             </tr>
                         </thead>
                         <tbody>
-                            <tr>
-                                <td>1</td>
-                                <td>Ahmad Fauzi</td>
-                                <td>ahmad.fauzi@email.com</td>
-                                <td>081234567890</td>
-                                <td>Jl. Sudirman No. 123, Jakarta Pusat</td>
-                            </tr>
-                            <tr>
-                                <td>2</td>
-                                <td>Sarah Wilson</td>
-                                <td>sarah.w@email.com</td>
-                                <td>082345678901</td>
-                                <td>Jl. Gatot Subroto No. 45, Jakarta Selatan</td>
-                            </tr>
-                            <tr>
-                                <td>3</td>
-                                <td>Budi Santoso</td>
-                                <td>budi.s@email.com</td>
-                                <td>083456789012</td>
-                                <td>Jl. Thamrin No. 88, Jakarta Pusat</td>
-                            </tr>
-                            <tr>
-                                <td>4</td>
-                                <td>Linda Chen</td>
-                                <td>linda.chen@email.com</td>
-                                <td>084567890123</td>
-                                <td>Jl. Asia Afrika No. 15, Jakarta Barat</td>
-                            </tr>
+                            
                         </tbody>
                     </table>
                 </div>

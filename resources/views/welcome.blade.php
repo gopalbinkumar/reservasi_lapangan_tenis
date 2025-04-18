@@ -26,7 +26,7 @@
     <section class="hero" id="home">
         <div class="hero-decoration" data-aos="fade-down" data-aos-duration="1000"></div>
         <div class="hero-content">
-            <h1 data-aos="fade-up" data-aos-duration="1000">Selamat Datang di TennisCourt</h1>
+            <h1 data-aos="fade-up" data-aos-duration="1000">Selamat Datang di Undipa TennisCourt</h1>
             <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">Nikmati pengalaman bermain tenis terbaik
                 dengan fasilitas modern dan lapangan berkualitas</p>
             <button class="btn btn-primary" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
@@ -194,30 +194,6 @@
                             <span class="period">/jam</span>
                         </div>
                         <button class="book-btn" data-aos="fade-up" data-aos-delay="550">
-                            <i class="fa-solid fa-calendar-plus fa-bounce"></i>
-                            Reservasi Sekarang
-                        </button>
-                    </div>
-                </div>
-
-                <!-- Standard Outdoor Court -->
-                <div class="court-card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
-                    <div class="court-image" data-aos="zoom-in" data-aos-delay="450">
-                        <img src="https://images.unsplash.com/photo-1614743758466-e569f4791116?auto=format&q=80&w=800"
-                            alt="Standard Outdoor Court" loading="lazy">
-                    </div>
-                    <div class="court-content">
-                        <h3 data-aos="fade-up" data-aos-delay="500">Court B2</h3>
-                        <div class="court-features" data-aos="fade-up" data-aos-delay="550">
-                            <i class="fa-solid fa-sun" title="Outdoor Standard"></i>
-                            <i class="fa-solid fa-umbrella" title="Basic Rain Cover"></i>
-                            <i class="fa-solid fa-lightbulb" title="Basic Lighting"></i>
-                        </div>
-                        <div class="court-price" data-aos="fade-up" data-aos-delay="600">
-                            <span class="amount">Rp 100,000</span>
-                            <span class="period">/jam</span>
-                        </div>
-                        <button class="book-btn" data-aos="fade-up" data-aos-delay="650">
                             <i class="fa-solid fa-calendar-plus fa-bounce"></i>
                             Reservasi Sekarang
                         </button>

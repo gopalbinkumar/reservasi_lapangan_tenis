@@ -38,66 +38,7 @@
                             </tr>
                         </thead>
                         <tbody>
-                            <tr>
-                                <td>1</td>
-                                <td>Tennis Court A1</td>
-                                <td>Indoor - Lantai 1</td>
-                                <td>Rp 150,000</td>
-                                <td><span class="status-badge inactive">Tidak Tersedia</span></td>
-                                <td class="action-buttons">
-                                    <button class="btn-icon edit">
-                                        <i class="bi bi-pencil-square"></i>
-                                    </button>
-                                    <button class="btn-icon delete">
-                                        <i class="bi bi-trash"></i>
-                                    </button>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>2</td>
-                                <td>Tennis Court A2</td>
-                                <td>Indoor - Lantai 1</td>
-                                <td>Rp 150,000</td>
-                                <td><span class="status-badge active">Tersedia</span></td>
-                                <td class="action-buttons">
-                                    <button class="btn-icon edit">
-                                        <i class="bi bi-pencil-square"></i>
-                                    </button>
-                                    <button class="btn-icon delete">
-                                        <i class="bi bi-trash"></i>
-                                    </button>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>3</td>
-                                <td>Tennis Court B1</td>
-                                <td>Outdoor Area</td>
-                                <td>Rp 120,000</td>
-                                <td><span class="status-badge inactive">Tidak Tersedia</span></td>
-                                <td class="action-buttons">
-                                    <button class="btn-icon edit">
-                                        <i class="bi bi-pencil-square"></i>
-                                    </button>
-                                    <button class="btn-icon delete">
-                                        <i class="bi bi-trash"></i>
-                                    </button>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>4</td>
-                                <td>Tennis Court B2</td>
-                                <td>Outdoor Area</td>
-                                <td>Rp 120,000</td>
-                                <td><span class="status-badge active">Tersedia</span></td>
-                                <td class="action-buttons">
-                                    <button class="btn-icon edit">
-                                        <i class="bi bi-pencil-square"></i>
-                                    </button>
-                                    <button class="btn-icon delete">
-                                        <i class="bi bi-trash"></i>
-                                    </button>
-                                </td>
-                            </tr>
+                            
                         </tbody>
                     </table>
                 </div>
